@@ -13,6 +13,21 @@ sdk install java 19.3.0.r8-grl
 ```
 couldn't be simpler! :)
 
+
+### Maven
+
+* ##### Setting up the maven wrapper
+> We will use the following Maven plugin for auto-installation in our project. [Takari Maven Plugin](https://github.com/takari/takari-maven-plugin)
+In the main folder of the project, run this command:
+```
+mvn -N io.takari:maven:wrapper
+```
+To specify the version of Maven use:
+```
+mvn -N io.takari:maven:wrapper -Dmaven=3.5.2
+```
+
+
 ### Useful Linux Commands
 
 * ##### How to kill a process running on particular port in Linux?
